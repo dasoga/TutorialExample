@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C42A1CE1D903BD600924EC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42A1CD1D903BD600924EC5 /* Extensions.swift */; };
+		2C9025DC1D9611EC0004482C /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9025DB1D9611EC0004482C /* LoginCell.swift */; };
 		2C9277BE1D7F28690068C1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9277BD1D7F28690068C1A9 /* AppDelegate.swift */; };
 		2C9277C01D7F28690068C1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9277BF1D7F28690068C1A9 /* ViewController.swift */; };
 		2C9277C31D7F28690068C1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9277C11D7F28690068C1A9 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2C42A1CD1D903BD600924EC5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C9025DB1D9611EC0004482C /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		2C9277BA1D7F28680068C1A9 /* AudibleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudibleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9277BD1D7F28690068C1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9277BF1D7F28690068C1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				2C9277CF1D7F2F8E0068C1A9 /* PageCell.swift */,
 				2C9277D11D7F33400068C1A9 /* Page.swift */,
 				2C42A1CD1D903BD600924EC5 /* Extensions.swift */,
+				2C9025DB1D9611EC0004482C /* LoginCell.swift */,
 			);
 			path = AudibleExample;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				2C9277BE1D7F28690068C1A9 /* AppDelegate.swift in Sources */,
 				2C9277D21D7F33400068C1A9 /* Page.swift in Sources */,
 				2C9277D01D7F2F8E0068C1A9 /* PageCell.swift in Sources */,
+				2C9025DC1D9611EC0004482C /* LoginCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

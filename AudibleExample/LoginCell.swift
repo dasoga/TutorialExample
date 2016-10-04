@@ -34,13 +34,16 @@ class LoginCell: UICollectionViewCell {
         return textField
     }()
     
-    let loginButton: UIButton = {
+    lazy var loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = .orange
         button.setTitle("Login", for: .normal)
         button.setTitleColor(.white, for: .normal)
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
         return button
     }()
+    
+    weak var delegate: LoginControllerDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -62,6 +65,11 @@ class LoginCell: UICollectionViewCell {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Handle
+    func handleLogin(){
+        delegate?.finishLogginIn()
     }
     
     

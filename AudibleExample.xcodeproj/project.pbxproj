@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C328F081DA5CE9C0039132F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C328F071DA5CE9C0039132F /* HomeController.swift */; };
+		2C328F0A1DA5D0900039132F /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C328F091DA5D0900039132F /* UserDefaults+helpers.swift */; };
 		2C42A1CE1D903BD600924EC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42A1CD1D903BD600924EC5 /* Extensions.swift */; };
 		2C9025DC1D9611EC0004482C /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9025DB1D9611EC0004482C /* LoginCell.swift */; };
 		2C9277BE1D7F28690068C1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9277BD1D7F28690068C1A9 /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C328F071DA5CE9C0039132F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2C328F091DA5D0900039132F /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
 		2C42A1CD1D903BD600924EC5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2C9025DB1D9611EC0004482C /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		2C9277BA1D7F28680068C1A9 /* AudibleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudibleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +79,8 @@
 				2C42A1CD1D903BD600924EC5 /* Extensions.swift */,
 				2C9025DB1D9611EC0004482C /* LoginCell.swift */,
 				2CB3F91A1D9D8CC50052BD56 /* MainNavigationController.swift */,
+				2C328F071DA5CE9C0039132F /* HomeController.swift */,
+				2C328F091DA5D0900039132F /* UserDefaults+helpers.swift */,
 			);
 			path = AudibleExample;
 			sourceTree = "<group>";
@@ -152,9 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C42A1CE1D903BD600924EC5 /* Extensions.swift in Sources */,
+				2C328F0A1DA5D0900039132F /* UserDefaults+helpers.swift in Sources */,
 				2C9277C01D7F28690068C1A9 /* LoginController.swift in Sources */,
 				2C9277BE1D7F28690068C1A9 /* AppDelegate.swift in Sources */,
 				2C9277D21D7F33400068C1A9 /* Page.swift in Sources */,
+				2C328F081DA5CE9C0039132F /* HomeController.swift in Sources */,
 				2CB3F91B1D9D8CC50052BD56 /* MainNavigationController.swift in Sources */,
 				2C9277D01D7F2F8E0068C1A9 /* PageCell.swift in Sources */,
 				2C9025DC1D9611EC0004482C /* LoginCell.swift in Sources */,
